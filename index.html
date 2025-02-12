@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesus The Way Ministry</title>
+  <style>
+    /* Splash Screen Styles */
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #007bff; /* Blue background */
+      color: white;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      animation: fadeIn 2s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Splash Screen Content -->
+  <h1>Jesus The Way Ministry</h1>
+
+  <!-- Redirect to Homepage after 3 seconds -->
+  <script>
+    setTimeout(() => {
+      window.location.href = "home.html"; // Redirect to homepage
+    }, 3000); // 3 seconds delay
+  </script>
+</body>
+</html>
